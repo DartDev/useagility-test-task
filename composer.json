@@ -16,8 +16,12 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "drupal/config_installer": "^1.8",
+        "drupal/config_split": "^1.4",
         "drupal/core-composer-scaffold": "^8.8",
-        "drupal/core-recommended": "^8.8"
+        "drupal/core-recommended": "^8.8",
+        "drupal/devel": "^2.1",
+        "drush/drush": "^10.2"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -80,5 +84,10 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "scripts": {
+        "post-drupal-scaffold-cmd": [
+            "patch -p1 < patches/htaccess-enforce-https.patch"
+        ]
     }
 }
