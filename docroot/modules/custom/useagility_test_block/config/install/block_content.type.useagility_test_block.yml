@@ -1,0 +1,12 @@
+langcode: en
+status: true
+id: useagility_test_block
+label: 'Useagility Test Block'
+revision: 0
+description: 'Custom block type'
+dependencies:
+  module:
+    - useagility_test_block
+  enforced:
+    module:
+      - useagility_test_block

@@ -1,0 +1,7 @@
+name: Useagility test block
+description: Provides a custom block type.
+package: Custom
+type: module
+core: 8.x
+dependencies:
+  - drupal:block

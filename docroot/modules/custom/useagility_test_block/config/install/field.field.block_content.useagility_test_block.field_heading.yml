@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.useagility_test_block
+    - field.storage.block_content.field_heading
+  module:
+    - useagility_test_block
+  enforced:
+    module:
+      - useagility_test_block
+id: block_content.useagility_test_block.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: useagility_test_block
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
