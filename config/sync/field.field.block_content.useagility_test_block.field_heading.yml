@@ -1,0 +1,24 @@
+uuid: 9db1dede-d4ad-41e7-a4b3-ac7fd455e321
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.useagility_test_block
+    - field.storage.block_content.field_heading
+  enforced:
+    module:
+      - useagility_test_block
+_core:
+  default_config_hash: wDsTj_9IjYPrVjuDUzr3SMttOKmEDDI4geY0ca_1BJI
+id: block_content.useagility_test_block.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: useagility_test_block
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

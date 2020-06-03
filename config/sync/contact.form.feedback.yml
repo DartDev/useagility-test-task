@@ -1,0 +1,14 @@
+uuid: 2ba64663-5ac8-4fca-b3d1-24b2640a1118
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - michael.dartdev@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

@@ -1,0 +1,45 @@
+uuid: a3677e01-65cc-4f2c-a147-1cfd4d9b9290
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.useagility_test_block
+    - field.field.block_content.useagility_test_block.field_copy
+    - field.field.block_content.useagility_test_block.field_heading
+  enforced:
+    module:
+      - useagility_test_block
+  module:
+    - text
+_core:
+  default_config_hash: sxBTH5gQmc2Am1X6IzRLSDCeLV5d05sGd94ATM_sipE
+id: block_content.useagility_test_block.default
+targetEntityType: block_content
+bundle: useagility_test_block
+mode: default
+content:
+  field_copy:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_heading:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

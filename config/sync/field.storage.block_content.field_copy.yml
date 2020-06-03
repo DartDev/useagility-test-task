@@ -1,0 +1,24 @@
+uuid: 872096db-afdb-4b13-8c88-8911a6dd761e
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - useagility_test_block
+  module:
+    - block_content
+    - text
+_core:
+  default_config_hash: U9e4d7nDtbP6YDGlfZcIogpEpJDzet0AYYtSRGBRhpA
+id: block_content.field_copy
+field_name: field_copy
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

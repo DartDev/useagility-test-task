@@ -1,0 +1,26 @@
+uuid: baa903e4-84a1-48f5-8a07-0da592af4037
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.useagility_test_block
+    - field.storage.block_content.field_copy
+  enforced:
+    module:
+      - useagility_test_block
+  module:
+    - text
+_core:
+  default_config_hash: mqXWSmrtq5s25VJzW-HRLNPXqQKLf98hNiffpqJmeXU
+id: block_content.useagility_test_block.field_copy
+field_name: field_copy
+entity_type: block_content
+bundle: useagility_test_block
+label: Copy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

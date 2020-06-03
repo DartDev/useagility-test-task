@@ -1,0 +1,13 @@
+uuid: cb90d925-ac7e-4af5-b3cf-254ce8cc3f75
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - useagility_test_block
+_core:
+  default_config_hash: lHYpg8p35B7In453LHR7cHwWSHbxDA0fYG1OORB1OLI
+id: useagility_test_block
+label: 'Useagility Test Block'
+revision: 0
+description: 'Custom block type'
