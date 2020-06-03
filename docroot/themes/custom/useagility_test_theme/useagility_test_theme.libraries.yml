@@ -1,0 +1,10 @@
+main:
+  css:
+    theme:
+      assets/main.css: {}
+  js:
+    assets/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
